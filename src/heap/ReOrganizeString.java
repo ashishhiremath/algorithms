@@ -6,10 +6,10 @@ import java.util.PriorityQueue;
 
 /**
  * https://leetcode.com/problems/reorganize-string/description/
- *
  * DS: HashMap and MaxHeap
- *
- * Example: start with most frequent character, hold it and find
+ * Time: O(A + NlogA) where A is the size of the alphabet
+ * Space: O(A)
+ * Approach: start with most frequent character, hold it and find
  * the next frequent character expect the "previous" one.
  */
 public class ReOrganizeString {
